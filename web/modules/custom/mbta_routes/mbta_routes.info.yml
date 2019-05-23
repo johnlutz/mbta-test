@@ -1,0 +1,5 @@
+name: MBTA Routes
+type: module
+description: 'MBTA Routes and Schedules'
+package: MBTA
+core: 8.x

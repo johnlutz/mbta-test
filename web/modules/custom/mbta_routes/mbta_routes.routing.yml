@@ -1,0 +1,14 @@
+mbta_routes.routes:
+  path: routes
+  defaults:
+    _controller: Drupal\mbta_routes\Controller\RoutesController::index
+    _title: 'MBTA Routes'
+  requirements:
+    _permission: 'access content'
+mbta_routes.schedules:
+  path: routes/{route_id}/schedule
+  defaults:
+    _controller: Drupal\mbta_routes\Controller\ScheduleController::index
+    _title: 'MBTA Schedule'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,4 @@
+services:
+  mbta_routes.mbta_routes:
+    class: Drupal\mbta_routes\MBTARoutes
+    arguments: ['@http_client']
