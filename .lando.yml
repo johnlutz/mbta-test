@@ -1,0 +1,5 @@
+name: mbta-test
+recipe: drupal8
+config:
+  webroot: web
+  xdebug: true
